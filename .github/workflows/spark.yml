@@ -31,7 +31,7 @@ jobs:
           CI_COMMIT_AUTHOR: adsoft
         run: |
           git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
-          git config --global user.email "adsoft@live.com.mx"
+          git config --global user.email "zs22004544@gmail.com"
           git add results
           git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
           git push
